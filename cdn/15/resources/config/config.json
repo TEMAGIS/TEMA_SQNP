@@ -440,6 +440,12 @@
           "widgetId": "widget_64",
           "bbox": {},
           "setting": {}
+        },
+        "5": {
+          "type": "WIDGET",
+          "widgetId": "widget_67",
+          "bbox": {},
+          "setting": {}
         }
       },
       "type": "FIXED",
@@ -449,7 +455,8 @@
         "4",
         "2",
         "3",
-        "0"
+        "0",
+        "5"
       ]
     },
     "layout_92": {
@@ -1802,7 +1809,12 @@
           "openStarts": [],
           "displayType": "STACK",
           "vertical": false,
-          "size": {},
+          "size": {
+            "widget_67": {
+              "width": 660,
+              "height": 95
+            }
+          },
           "alignment": "end",
           "arrangement": "floating"
         },
@@ -3342,6 +3354,46 @@
           "utilityId": "utility_1"
         }
       ]
+    },
+    "widget_67": {
+      "uri": "widgets/common/text/",
+      "version": "1.18.0",
+      "label": "For Exercise",
+      "config": {
+        "text": "<h3><strong>Facility</strong>: <exp data-uniqueid=\"d0dcb570_3a09_8132_36ad_a9ddb81adf31\" data-dsid=\"dataSource_8-0\" data-expression=\"%7B%22name%22%3A%22%7Bfnffacility%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7Bfnffacility%7D%22%2C%22dataSourceId%22%3A%22dataSource_8-0%22%2C%22jimuFieldName%22%3A%22fnffacility%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{fnffacility}</span>﻿</exp>, <strong>ECL</strong>:  <exp data-uniqueid=\"40fad456_87b1_fa57_7e76_d6cc02b1956e\" data-dsid=\"dataSource_8-0\" data-expression=\"%7B%22name%22%3A%22%7Becldeclared%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7Becldeclared%7D%22%2C%22dataSourceId%22%3A%22dataSource_8-0%22%2C%22jimuFieldName%22%3A%22ecldeclared%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{ecldeclared}</span>﻿</exp>, <strong>SEOC AL</strong>: <exp data-uniqueid=\"962650bc_9e59_72ec_2ea3_8bc40a30699a\" data-dsid=\"dataSource_8-0\" data-expression=\"%7B%22name%22%3A%22%7Bseocactivationlvl%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7Bseocactivationlvl%7D%22%2C%22dataSourceId%22%3A%22dataSource_8-0%22%2C%22jimuFieldName%22%3A%22seocactivationlvl%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{seocactivationlvl}</span>﻿</exp>&nbsp;</h3>",
+        "placeholder": "Double click to edit text",
+        "style": {
+          "wrap": true
+        }
+      },
+      "id": "widget_67",
+      "useDataSourcesEnabled": true,
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_8-0",
+          "mainDataSourceId": "dataSource_8-0",
+          "rootDataSourceId": "dataSource_8",
+          "fields": [
+            "fnffacility",
+            "ecldeclared",
+            "seocactivationlvl"
+          ]
+        }
+      ],
+      "icon": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" fill-rule=\"evenodd\" d=\"M8 1C4.15 1 1 4.15 1 8s3.15 7 7 7 7-3.15 7-7-3.15-7-7-7m1.167 11.667H6.834v-2.334h2.333zm-2.333-4.5V3.333h2.333v4.834z\" clip-rule=\"evenodd\"></path></svg>",
+        "properties": {
+          "filename": "WarningCircleFilled",
+          "color": "",
+          "originalName": "filled/suggested/warning-circle.svg",
+          "path": [
+            "suggestion",
+            "WarningCircleFilled"
+          ],
+          "isUploaded": false,
+          "inlineSvg": true
+        }
+      }
     }
   },
   "customTheme": {
@@ -3535,7 +3587,7 @@
       }
     }
   },
-  "timestamp": 1787164234688,
+  "timestamp": 1787168206716,
   "sharedThemeVariables": {
     "header": {},
     "body": {},
@@ -3551,6 +3603,14 @@
       "sourceLabel": "SQNP_ExB",
       "itemId": "fa7969cb4deb47ce8ff90dc40716cadc",
       "portalUrl": "https://tnema.maps.arcgis.com"
+    },
+    "dataSource_8": {
+      "id": "dataSource_8",
+      "type": "FEATURE_SERVICE",
+      "sourceLabel": "FNFFacilityStatusMapper_ESF5_vL",
+      "itemId": "832e2d2a2e89441a8ab8cf2d491738c7",
+      "portalUrl": "https://tnema.maps.arcgis.com",
+      "url": "https://services1.arcgis.com/kILp9lqGUeOhnDbI/arcgis/rest/services/FNFFacilityStatusMapper_ESF5_vL/FeatureServer"
     }
   },
   "appStateConfig": {
