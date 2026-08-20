@@ -3358,7 +3358,7 @@
       "version": "1.18.0",
       "label": "For Exercise",
       "config": {
-        "text": "<h3><strong>Facility</strong>: <exp data-uniqueid=\"d0dcb570_3a09_8132_36ad_a9ddb81adf31\" data-dsid=\"dataSource_8-0\" data-expression=\"%7B%22name%22%3A%22%7Bfnffacility%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7Bfnffacility%7D%22%2C%22dataSourceId%22%3A%22dataSource_8-0%22%2C%22jimuFieldName%22%3A%22fnffacility%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{fnffacility}</span>﻿</exp>, <strong>ECL</strong>:  <exp data-uniqueid=\"40fad456_87b1_fa57_7e76_d6cc02b1956e\" data-dsid=\"dataSource_8-0\" data-expression=\"%7B%22name%22%3A%22%7Becldeclared%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7Becldeclared%7D%22%2C%22dataSourceId%22%3A%22dataSource_8-0%22%2C%22jimuFieldName%22%3A%22ecldeclared%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{ecldeclared}</span>﻿</exp>, <strong>SEOC AL</strong>: <exp data-uniqueid=\"962650bc_9e59_72ec_2ea3_8bc40a30699a\" data-dsid=\"dataSource_8-0\" data-expression=\"%7B%22name%22%3A%22%7Bseocactivationlvl%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7Bseocactivationlvl%7D%22%2C%22dataSourceId%22%3A%22dataSource_8-0%22%2C%22jimuFieldName%22%3A%22seocactivationlvl%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{seocactivationlvl}</span>﻿</exp>&nbsp;</h3>",
+        "text": "<h3><strong>Facility</strong>: <exp data-uniqueid=\"a9877433_5b9f_7fff_d0e3_73ec451a5385\" data-dsid=\"dataSource_7-1a01f01a081-layer-92\" data-expression=\"%7B%22name%22%3A%22%7Bfnffacility%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7Bfnffacility%7D%22%2C%22dataSourceId%22%3A%22dataSource_7-1a01f01a081-layer-92%22%2C%22jimuFieldName%22%3A%22fnffacility%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{fnffacility}</span>﻿</exp>&nbsp;&nbsp;, <strong>ECL</strong>: <exp data-uniqueid=\"dcaa8dbf_2766_d2c2_c064_aff1be4847d6\" data-dsid=\"dataSource_7-1a01f01a081-layer-92\" data-expression=\"%7B%22name%22%3A%22%7Becldeclared%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7Becldeclared%7D%22%2C%22dataSourceId%22%3A%22dataSource_7-1a01f01a081-layer-92%22%2C%22jimuFieldName%22%3A%22ecldeclared%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{ecldeclared}</span>﻿</exp>&nbsp;&nbsp;&nbsp;, <strong>SEOC AL</strong>: <exp data-uniqueid=\"af9e2ffb_3dd5_8bab_98cc_ebd3ddd48b91\" data-dsid=\"dataSource_7-1a01f01a081-layer-92\" data-expression=\"%7B%22name%22%3A%22%7Bseocactivationlvl%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7Bseocactivationlvl%7D%22%2C%22dataSourceId%22%3A%22dataSource_7-1a01f01a081-layer-92%22%2C%22jimuFieldName%22%3A%22seocactivationlvl%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">{seocactivationlvl}</span>﻿</exp>&nbsp;&nbsp;</h3>",
         "style": {
           "wrap": true
         }
@@ -3367,9 +3367,9 @@
       "useDataSourcesEnabled": true,
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_8-0",
-          "mainDataSourceId": "dataSource_8-0",
-          "rootDataSourceId": "dataSource_8",
+          "dataSourceId": "dataSource_7-1a01f01a081-layer-92",
+          "mainDataSourceId": "dataSource_7-1a01f01a081-layer-92",
+          "rootDataSourceId": "dataSource_7",
           "fields": [
             "fnffacility",
             "ecldeclared",
@@ -3570,7 +3570,7 @@
     "backgroundColor": "var(--primary-700)"
   },
   "useAutoSortInFixedLayout": true,
-  "publishTimestamp": 1787168219489,
+  "publishTimestamp": 1787227196629,
   "attributes": {
     "portalUrl": "https://tnema.maps.arcgis.com",
     "favicon": {
@@ -3591,7 +3591,7 @@
     "type": "Web Experience",
     "thumbnail": "thumbnail/thumbnail1773768682570.png"
   },
-  "timestamp": 1787168206716,
+  "timestamp": 1787227146771,
   "sharedThemeVariables": {
     "header": {},
     "body": {},
@@ -3607,14 +3607,6 @@
       "sourceLabel": "SQNP_ExB",
       "itemId": "fa7969cb4deb47ce8ff90dc40716cadc",
       "portalUrl": "https://tnema.maps.arcgis.com"
-    },
-    "dataSource_8": {
-      "id": "dataSource_8",
-      "type": "FEATURE_SERVICE",
-      "sourceLabel": "FNFFacilityStatusMapper_ESF5_vL",
-      "itemId": "832e2d2a2e89441a8ab8cf2d491738c7",
-      "portalUrl": "https://tnema.maps.arcgis.com",
-      "url": "https://services1.arcgis.com/kILp9lqGUeOhnDbI/arcgis/rest/services/FNFFacilityStatusMapper_ESF5_vL/FeatureServer"
     }
   },
   "appStateConfig": {
